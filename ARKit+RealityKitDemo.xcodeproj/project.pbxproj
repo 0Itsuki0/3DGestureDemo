@@ -13,6 +13,7 @@
 		98413E362ADA4750009CE4DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98413E342ADA4750009CE4DA /* Main.storyboard */; };
 		98413E382ADA4751009CE4DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98413E372ADA4751009CE4DA /* Assets.xcassets */; };
 		98413E3B2ADA4751009CE4DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98413E392ADA4751009CE4DA /* LaunchScreen.storyboard */; };
+		98413E432ADA47F6009CE4DA /* MyCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98413E422ADA47F6009CE4DA /* MyCube.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		98413E372ADA4751009CE4DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98413E3A2ADA4751009CE4DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98413E3C2ADA4751009CE4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98413E422ADA47F6009CE4DA /* MyCube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCube.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,13 @@
 		98413E2D2ADA474F009CE4DA /* ARKit+RealityKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				98413E422ADA47F6009CE4DA /* MyCube.swift */,
 				98413E2E2ADA474F009CE4DA /* AppDelegate.swift */,
 				98413E302ADA4750009CE4DA /* SceneDelegate.swift */,
 				98413E322ADA4750009CE4DA /* ViewController.swift */,
 				98413E342ADA4750009CE4DA /* Main.storyboard */,
-				98413E372ADA4751009CE4DA /* Assets.xcassets */,
 				98413E392ADA4751009CE4DA /* LaunchScreen.storyboard */,
+				98413E372ADA4751009CE4DA /* Assets.xcassets */,
 				98413E3C2ADA4751009CE4DA /* Info.plist */,
 			);
 			path = "ARKit+RealityKitDemo";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98413E432ADA47F6009CE4DA /* MyCube.swift in Sources */,
 				98413E332ADA4750009CE4DA /* ViewController.swift in Sources */,
 				98413E2F2ADA474F009CE4DA /* AppDelegate.swift in Sources */,
 				98413E312ADA4750009CE4DA /* SceneDelegate.swift in Sources */,
@@ -292,6 +296,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U572Q7GJ6L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ARKit+RealityKitDemo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -319,6 +324,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U572Q7GJ6L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ARKit+RealityKitDemo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
